@@ -3,8 +3,6 @@ nav .container .navbar-nav .nav-item {
   position: relative;
 }
 
-
-
 nav .container .navbar-nav .notspecial::after {
   background-color: white;
   content: "";

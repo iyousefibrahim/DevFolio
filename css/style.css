@@ -1,0 +1,360 @@
+/* Nav */
+nav .container .navbar-nav .nav-item {
+  position: relative;
+}
+
+
+
+nav .container .navbar-nav .notspecial::after {
+  background-color: white;
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 7px;
+  width: 0;
+  height: 2px;
+  transition: width 0.4s ease;
+}
+
+nav .container .navbar-nav .special::after {
+  background-color: white;
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 7px;
+  width: 0;
+  height: 2px;
+  transition: width 0.4s ease;
+  width: 80%;
+}
+
+nav .container .navbar-nav .notspecial:hover::after {
+  width: 80%;
+}
+
+nav .container .collapse ul li {
+  margin-left: 15px;
+}
+
+.dropdown-menu {
+  transition: 0.4s;
+  display: none;
+}
+.dropdown {
+  transition: 0.4s;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  transition: 0.4s;
+}
+
+.dropdown-menu .dropdown-item {
+  transition: 0.4s;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #0078ff;
+  transition: 0.4s;
+}
+
+/* Nav */
+
+/* Header */
+
+header {
+  background-image: url(../img/hero-bg.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+header .layer {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+
+header h1 {
+  font-size: 72px;
+  color: gold;
+}
+
+/* Header */
+
+/* About */
+#about {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#about .container .row {
+  padding: 50px;
+}
+
+#about .container .row h2 span {
+  position: relative;
+}
+
+#about .container .row h2 span::after {
+  content: "";
+  position: absolute;
+  background-color: #0078ff;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+}
+
+/* About */
+
+/* Services */
+
+#services .container .row .services-head-text h1 {
+  font-size: 48px;
+}
+
+#services .container .row .services-head-text .p {
+  position: relative;
+}
+
+#services .container .row .services-head-text .line::after {
+  position: absolute;
+  content: "";
+  width: 3%;
+  height: 4px;
+  transform: translate(-50%);
+  background-color: #0078ff;
+}
+
+#services .container .row div .item i {
+  border: 10px solid #0078ff;
+  color: black;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+#services .container .row div .item:hover i {
+  color: white;
+  background-color: #0078ff;
+  border-color: #cde1f8;
+  transition: 0.4s;
+}
+
+/* Services */
+
+/* statistics */
+
+#statistics {
+  background-image: url(../img/post-3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+#statistics .layer {
+  background-color: rgba(0, 120, 255, 0.7);
+  padding: 100px 0px;
+}
+
+#statistics .layer .items .item i {
+  border: #cde1f8 solid 10px;
+  border-radius: 50%;
+}
+
+/* statistics */
+
+/* Portfolio */
+
+#portfolio .container .row .portfolio-head-text h1 {
+  font-size: 48px;
+}
+
+#portfolio .container .row .portfolio-head-text .p {
+  position: relative;
+}
+
+#portfolio .container .row .portfolio-head-text .line::after {
+  position: absolute;
+  content: "";
+  width: 3%;
+  height: 4px;
+  transform: translate(-50%);
+  background-color: #0078ff;
+}
+
+#portfolio .container .row .card .card-icon i {
+  color: #0078ff;
+  border: 3px solid #0078ff;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#portfolio .container .row .card img {
+  transition: 0.5s;
+}
+#portfolio .container .row .card img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+/* Portfolio */
+
+/* Who */
+
+#who {
+  background-image: url(../img/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+#who .layer {
+  background-color: rgba(0, 120, 255, 0.7);
+  height: 100%;
+  padding: 100px 0px;
+}
+
+/* Who */
+
+/* BLOG */
+#blog .container .row .blog-head-text h1 {
+  font-size: 48px;
+}
+
+#blog .container .row {
+  margin: 80px 0px;
+}
+#blog .container .row .blog-head-text .p {
+  position: relative;
+}
+
+#blog .container .row .blog-head-text .line::after {
+  position: absolute;
+  content: "";
+  width: 3%;
+  height: 4px;
+  transform: translate(-50%);
+  background-color: #0078ff;
+}
+
+#blog .container .row .card .card-footer .info img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+#blog .container .row .card-body {
+  position: relative;
+}
+
+#blog .container .row .card .little {
+  position: absolute;
+  text-align: center;
+  top: -16px;
+  left: 15px;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+#blog .container .row .card .little div {
+  display: inline-block;
+  color: #fff;
+  padding: 0 15px 5px;
+  overflow: hidden;
+  background-color: #0078ff;
+  border-radius: 4px;
+}
+#blog .container .row .card .little div h3 {
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+#blog .container .row .card img {
+  cursor: pointer;
+}
+
+#blog .container .row .card .card-footer .name,
+img {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#blog .container .row .card .card-footer .name:hover {
+  transition: 0.4s;
+  color: #0078ff;
+}
+
+/* BLOG */
+
+/* Touch */
+#touch {
+  background-image: url(../img/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+#touch .layer {
+  background-color: rgba(0, 120, 255, 0.7);
+  height: 100%;
+  padding: 100px 0px;
+}
+#touch .layer h3 span {
+  position: relative;
+}
+
+#touch .layer h3 span::after {
+  position: absolute;
+  content: "";
+  width: 130%;
+  height: 3px;
+  background-color: #0078ff;
+  left: 0;
+  bottom: -5px;
+}
+
+#touch .container .row .social-media i {
+  border: 5px solid #0078ff;
+  color: black;
+  border-radius: 50%;
+  transition: 0.4s;
+  padding: 10px;
+}
+
+#touch .container .row div .social-media i:hover {
+  color: white;
+  background-color: #0078ff;
+  border-color: #cde1f8;
+  transition: 0.4s;
+}
+
+#touch .container .row button {
+  border: 5px solid transparent;
+  color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+  padding: 10px;
+}
+
+#touch .container .row button:hover {
+  color: white;
+  background-color: #3393ff;
+  border-color: #cde1f8;
+  transition: 0.4s;
+}
+/* Touch */
+
+/* Footer */
+footer {
+  background-color: #0062d3;
+}
+/* Footer */

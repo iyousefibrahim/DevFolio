@@ -1,6 +1,3 @@
-# Assignment-7-DevFolio-
-
-
 # DevFolio
 
 DevFolio is a modern and responsive portfolio website template designed for showcasing personal or professional portfolios.
